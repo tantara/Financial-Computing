@@ -42,7 +42,7 @@
 
 #### OUTPUT
 ```
-25.6763				# (price)
+25.6685				# (price)
 ```
 
 ### 3. Implementation

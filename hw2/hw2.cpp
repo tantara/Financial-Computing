@@ -198,11 +198,7 @@ double solve() {
         amrCall = Avg[j][i][m] - X;
         asnCall = (p * Cu + (1 - p) * Cd) / exp(rCap);
 
-        if(Avg[j][i][m] > H) {
-          Ans[j][i][m] = 0;
-        } else {
-          Ans[j][i][m] = fmax(amrCall, asnCall);
-        }
+        Ans[j][i][m] = fmax(amrCall, asnCall);
       }
     }
   }
